@@ -9,7 +9,7 @@ setup(
     license = "BSD",
     packages=['plugwise_graphite'],
     install_requires=[
-        "plugwise",
+        "plugwiselib",
         "anyconfig",
         "pyserial",
         "crcmod",
