@@ -13,9 +13,10 @@ setup(
         "anyconfig",
         "pyserial",
         "crcmod",
+        "pyyaml",
     ],
     dependency_links=[
-        "hg+https://bitbucket.org/hadara/python-plugwise#egg=plugwise"
+        "hg+https://bitbucket.org/hadara/python-plugwise#egg=plugwiselib"
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
