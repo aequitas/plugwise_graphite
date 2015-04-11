@@ -1,0 +1,22 @@
+# usbtty interface device
+tty: /dev/cu.usbserial-A700dqVj
+
+# timeout for circle query
+timeout: 3
+
+# poll interval
+interval: 10
+
+graphite:
+  host: localhost
+  port: 2003
+  prefix: stats.plugwise.
+
+loglevel: ERROR
+
+# list of devices to poll
+devices:
+  - mac: 000D6F0000123456
+    name: tv  
+  - mac: 000D6F0000654321
+    name: fridge
