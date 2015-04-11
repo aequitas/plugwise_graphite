@@ -58,8 +58,7 @@ def main():
                 try_circle = next(pool_queue)
                 log.debug('trying {c[name]}'.format(c=try_circle))
                 try_circle['active'] = bool(catch_error(try_circle.get('circle').get_info))
-            else:
-                time.sleep(1)
+            time.sleep(1)
 
 if __name__ == "__main__":
     main()
