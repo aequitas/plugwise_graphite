@@ -25,7 +25,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'plugwise_graphite = plugwise_graphite.__init__:main',
+            'plugwise_graphite = plugwise_graphite.graphite:main',
+            'plugwise_scan = plugwise_graphite.scan:main',
         ],
     },
 )

@@ -1,1 +1,6 @@
 *.py[co]
+dist
+build
+.tox
+env
+*.egg-info
