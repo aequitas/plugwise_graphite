@@ -16,8 +16,10 @@ TEMPLATE = "{config[graphite][prefix]}{name} {value} {time}"
 
 
 def main():
+    config_file_path = os.environ.get('PLUGWISE_CONFIG_FILE', 'config.yaml')
+
     # config and logging
-    config = anyconfig.load('config.yaml')
+    config = anyconfig.load(config_file_path)
     logging.basicConfig(level=config.get('loglevel'))
 
     # setup plugwise stick
