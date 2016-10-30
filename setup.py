@@ -15,9 +15,6 @@ setup(
         "crcmod",
         "pyyaml",
     ],
-    dependency_links=[
-        "hg+https://bitbucket.org/hadara/python-plugwise#egg=plugwiselib"
-    ],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
