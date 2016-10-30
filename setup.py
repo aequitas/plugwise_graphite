@@ -16,7 +16,7 @@ setup(
         "pyyaml",
     ],
     dependency_links=[
-        "hg+https://bitbucket.org/hadara/python-plugwise#egg=plugwiselib"
+        'git+https://github.com/aequitas/python-plugwise.git'
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
